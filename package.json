@@ -1,0 +1,37 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "clean-android": "cd android && ./gradlew clean"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^13.0.1",
+    "@react-native-firebase/firestore": "^13.0.1",
+    "@react-navigation/native": "^6.0.6",
+    "@types/react-native-vector-icons": "^6.4.9",
+    "expo": "~43.0.0",
+    "expo-status-bar": "~1.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
+    "react-native-webrtc": "^1.92.2",
+    "expo-splash-screen": "~0.13.3",
+    "expo-updates": "~0.10.5",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true,
+  "name": "videoCall",
+  "version": "1.0.0"
+}
